@@ -1,0 +1,82 @@
+.frameChild {
+  height: 43px;
+  width: 290px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro-100);
+  display: none;
+}
+.trc20Adress {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 84px;
+  z-index: 3;
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-smi) var(--padding-xl) var(--padding-smi)
+    var(--padding-15xl);
+  white-space: nowrap;
+  z-index: 2;
+}
+.add,
+.frameItem {
+  position: relative;
+}
+.frameItem {
+  height: 26px;
+  width: 61px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gainsboro-100);
+  display: none;
+}
+.add {
+  font-weight: 600;
+  display: inline-block;
+  min-width: 23px;
+  z-index: 2;
+}
+.frameWrapper,
+.rectangleGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.rectangleGroup {
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gainsboro-100);
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-lgi) var(--padding-8xs);
+  z-index: 1;
+}
+.frameWrapper {
+  width: 277px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  color: var(--color-black);
+}
+.frameParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-12xl);
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-gray-300);
+  font-family: var(--font-ibm-plex-sans-hebrew);
+}
+@media screen and (max-width: 290px) {
+  .frameParent {
+    gap: var(--gap-mini);
+  }
+}

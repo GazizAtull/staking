@@ -1,0 +1,123 @@
+.frameChild,
+.frameItem {
+  width: 1px;
+  position: relative;
+  border-right: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.frameChild {
+  height: 55px;
+}
+.frameItem {
+  flex: 1;
+}
+.lineWrapper {
+  height: 54px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lgi) 0 0;
+  box-sizing: border-box;
+}
+.frameInner {
+  width: 1px;
+  flex: 1;
+  position: relative;
+  border-right: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.lineContainer {
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.imageBorder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background: linear-gradient(
+    268.44deg,
+    rgba(217, 217, 217, 0.41),
+    rgba(115, 115, 115, 0.41)
+  );
+  width: 100%;
+  height: 100%;
+}
+.kisspngDigitalWalletComputeIcon {
+  position: absolute;
+  top: 25px;
+  left: 40px;
+  width: 35px;
+  height: 34px;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 1;
+}
+.imagesRemovebgPreview1Icon,
+.rocket3807RemovebgPreview1Icon {
+  position: absolute;
+  top: 22px;
+  left: 258px;
+  width: 41px;
+  height: 41px;
+  object-fit: cover;
+  z-index: 1;
+}
+.rocket3807RemovebgPreview1Icon {
+  top: 25px;
+  left: 368px;
+  width: 34px;
+  height: 34px;
+}
+.imageBorderParent {
+  height: 117px;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: -37px;
+  left: 0;
+}
+.langs,
+.lineParent {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+.lineParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-mini) var(--padding-78xl) var(--padding-3xs)
+    var(--padding-89xl);
+  gap: var(--gap-xl);
+}
+.langs {
+  width: 100%;
+  background-color: var(--color-gray-200);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-12xl) 0 0;
+  box-sizing: border-box;
+  gap: 462px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 267px) {
+  .frameChild {
+    width: 100%;
+    height: 1px;
+  }
+  .lineParent {
+    flex-wrap: wrap;
+  }
+}

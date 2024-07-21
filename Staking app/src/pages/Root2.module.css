@@ -1,0 +1,407 @@
+.walletDetailsChild {
+  height: 266px;
+  width: 388px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background: linear-gradient(
+    238.35deg,
+    rgba(217, 217, 217, 0.1),
+    rgba(115, 115, 115, 0.1)
+  );
+  display: none;
+  max-width: 100%;
+}
+.walletGrafic {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  z-index: 1;
+}
+.walletDetails,
+.walletDetailsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.walletDetails {
+  flex: 1;
+  border-radius: var(--br-11xl);
+  background: linear-gradient(
+    238.35deg,
+    rgba(217, 217, 217, 0.1),
+    rgba(115, 115, 115, 0.1)
+  );
+  justify-content: center;
+  padding: 113px var(--padding-xl) 114px;
+}
+.walletDetailsWrapper {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-5xl) 0 var(--padding-6xl);
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-gray-500);
+  font-family: var(--font-ibm-plex-sans-hebrew);
+}
+.seeMore,
+.separator {
+  position: absolute;
+  top: 0;
+}
+.separator {
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: rgba(217, 217, 217, 0.6);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.seeMore {
+  left: 5px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 43px;
+  z-index: 1;
+}
+.contentItems {
+  height: 14px;
+  flex: 1;
+  position: relative;
+  white-space: nowrap;
+}
+.innerContent {
+  width: 68px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-6xs);
+  box-sizing: border-box;
+}
+.statusMessagesChild {
+  height: 58px;
+  width: 415px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(88.38deg, #4b4955, #a5a1bb);
+  display: none;
+  max-width: 100%;
+}
+.transactionSuccessful {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  font-weight: 600;
+  font-family: var(--font-ibm-plex-sans-hebrew);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 104px;
+  z-index: 1;
+}
+.statusMessages,
+.statusMessagesItem {
+  border-radius: var(--br-3xs);
+  background: linear-gradient(88.38deg, #4b4955, #a5a1bb);
+  max-width: 100%;
+}
+.statusMessages {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xl) var(--padding-132xl) var(--padding-4xl);
+  background-color: transparent;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.statusMessagesItem {
+  height: 58px;
+  width: 415px;
+  position: relative;
+  display: none;
+}
+.transactionSuccessful1 {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  font-weight: 600;
+  font-family: var(--font-ibm-plex-sans-hebrew);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 104px;
+  z-index: 1;
+}
+.frameChild,
+.statusMessages1 {
+  border-radius: var(--br-3xs);
+  background: linear-gradient(88.38deg, #4b4955, #a5a1bb);
+  max-width: 100%;
+}
+.statusMessages1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xl) 150px var(--padding-4xl);
+  background-color: transparent;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.frameChild {
+  height: 58px;
+  width: 415px;
+  position: relative;
+  display: none;
+}
+.transactionSuccessful2 {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  font-weight: 600;
+  font-family: var(--font-ibm-plex-sans-hebrew);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 104px;
+  z-index: 1;
+}
+.rectangleParent,
+.statusContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xl) var(--padding-132xl) var(--padding-4xl);
+  background-color: transparent;
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(88.38deg, #4b4955, #a5a1bb);
+  justify-content: center;
+  white-space: nowrap;
+}
+.statusContainer {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) 0 0;
+}
+.statusMessagesInner {
+  height: 58px;
+  width: 415px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(88.38deg, #4b4955, #a5a1bb);
+  display: none;
+  max-width: 100%;
+}
+.transactionSuccessful3 {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  font-weight: 600;
+  font-family: var(--font-ibm-plex-sans-hebrew);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 104px;
+  z-index: 1;
+}
+.statusMessages2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xl) var(--padding-132xl) var(--padding-3xl);
+  background-color: transparent;
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(88.38deg, #4b4955, #a5a1bb);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  white-space: nowrap;
+  max-width: 100%;
+}
+.innerContentParent,
+.transactionStatus {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.transactionStatus {
+  align-self: stretch;
+  gap: 9px;
+}
+.innerContentParent {
+  flex: 1;
+  gap: 6px;
+}
+.contentBlock {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-3xs) 0 var(--padding-2xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameInner,
+.frameItem {
+  width: 1px;
+  position: relative;
+  border-right: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.frameItem {
+  height: 55px;
+}
+.frameInner {
+  flex: 1;
+}
+.lineWrapper {
+  height: 54px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lgi) 0 0;
+  box-sizing: border-box;
+}
+.lineDiv {
+  width: 1px;
+  flex: 1;
+  position: relative;
+  border-right: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.lineContainer {
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.imagePlaceholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background: linear-gradient(
+    268.44deg,
+    rgba(217, 217, 217, 0.41),
+    rgba(115, 115, 115, 0.41)
+  );
+  width: 100%;
+  height: 100%;
+}
+.kisspngDigitalWalletComputeIcon {
+  position: absolute;
+  top: 25px;
+  left: 40px;
+  width: 35px;
+  height: 34px;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 1;
+}
+.imagesRemovebgPreview1Icon,
+.rocket3807RemovebgPreview1Icon {
+  position: absolute;
+  top: 22px;
+  left: 258px;
+  width: 41px;
+  height: 41px;
+  object-fit: cover;
+  z-index: 1;
+}
+.rocket3807RemovebgPreview1Icon {
+  top: 25px;
+  left: 368px;
+  width: 34px;
+  height: 34px;
+}
+.imagePlaceholderParent {
+  height: 117px;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: -37px;
+  left: 0;
+}
+.lineParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-mini) var(--padding-78xl) var(--padding-3xs)
+    var(--padding-89xl);
+  position: relative;
+  gap: var(--gap-xl);
+}
+.contentBlockParent,
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.contentBlockParent {
+  align-self: stretch;
+  gap: var(--gap-51xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-black);
+  font-family: var(--font-ibm-plex-sans-hebrew);
+}
+.root {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-200);
+  overflow: hidden;
+  padding: var(--padding-12xl) 0 0;
+  box-sizing: border-box;
+  gap: 34px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 400px) {
+  .rectangleParent,
+  .statusMessages,
+  .statusMessages1,
+  .statusMessages2 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 267px) {
+  .frameItem {
+    width: 100%;
+    height: 1px;
+  }
+  .lineParent {
+    flex-wrap: wrap;
+  }
+}

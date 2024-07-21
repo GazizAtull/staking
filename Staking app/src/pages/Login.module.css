@@ -1,0 +1,78 @@
+.frameChild {
+  height: 58px;
+  width: 415px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(
+    88.38deg,
+    rgba(75, 73, 85, 0.4),
+    rgba(165, 161, 187, 0.4)
+  );
+  display: none;
+  max-width: 100%;
+}
+.transactionSuccessful {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  font-weight: 600;
+  font-family: var(--font-ibm-plex-sans-hebrew);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 104px;
+  z-index: 2;
+}
+.frameParent,
+.login,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xl) 148px var(--padding-4xl);
+  background-color: transparent;
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(
+    88.38deg,
+    rgba(75, 73, 85, 0.4),
+    rgba(165, 161, 187, 0.4)
+  );
+  flex-direction: row;
+  justify-content: center;
+  white-space: nowrap;
+  max-width: 100%;
+  z-index: 1;
+}
+.frameParent,
+.login {
+  justify-content: flex-start;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  padding: 71px var(--padding-3xs) 624px;
+  gap: 27.5px;
+  max-width: 100%;
+}
+.login {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gray-200);
+  overflow: hidden;
+  flex-direction: row;
+  padding: 84px 0 0 var(--padding-12xs);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 400px) {
+  .rectangleParent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

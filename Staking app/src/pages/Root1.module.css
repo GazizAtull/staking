@@ -1,0 +1,92 @@
+.stepOneChild {
+  width: 388px;
+  height: 187px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background: linear-gradient(
+    245.8deg,
+    rgba(217, 217, 217, 0.1) 9.5%,
+    rgba(115, 115, 115, 0.1)
+  );
+  display: none;
+  max-width: 100%;
+}
+.amount,
+.buttonIcon {
+  position: relative;
+  z-index: 1;
+}
+.buttonIcon {
+  width: 19.8px;
+  height: 19.5px;
+}
+.amount {
+  text-decoration: none;
+  width: 130px;
+  font-weight: 600;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.amountWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 46px;
+}
+.stepOne {
+  flex: 1;
+  border-radius: var(--br-11xl);
+  background: linear-gradient(
+    245.8deg,
+    rgba(217, 217, 217, 0.1) 9.5%,
+    rgba(115, 115, 115, 0.1)
+  );
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-sm) 68px;
+  gap: 45.5px;
+  max-width: 100%;
+}
+.root,
+.stepOne,
+.transactionSteps {
+  display: flex;
+  box-sizing: border-box;
+}
+.transactionSteps {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-smi) 0 var(--padding-2xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-gray-500);
+  font-family: var(--font-ibm-plex-sans-hebrew);
+}
+.root {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-14xl) var(--padding-5xs) var(--padding-78xl)
+    var(--padding-6xs);
+  gap: 55px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 388px) {
+  .stepOne {
+    gap: 23px;
+  }
+}

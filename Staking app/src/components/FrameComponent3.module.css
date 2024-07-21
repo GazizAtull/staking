@@ -1,0 +1,112 @@
+.frameChild {
+  height: 58px;
+  width: 415px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(
+    88.38deg,
+    rgba(75, 73, 85, 0.4),
+    rgba(165, 161, 187, 0.4)
+  );
+  display: none;
+  max-width: 100%;
+}
+.transactionSuccessful {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  font-weight: 600;
+  font-family: var(--font-ibm-plex-sans-hebrew);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 104px;
+  z-index: 2;
+}
+.frameItem,
+.rectangleParent {
+  border-radius: var(--br-3xs);
+  background: linear-gradient(
+    88.38deg,
+    rgba(75, 73, 85, 0.4),
+    rgba(165, 161, 187, 0.4)
+  );
+  max-width: 100%;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xl) var(--padding-xl) var(--padding-4xl)
+    var(--padding-2xl);
+  background-color: transparent;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frameItem {
+  height: 58px;
+  width: 415px;
+  position: relative;
+  display: none;
+}
+.transactionSuccessful1 {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  font-weight: 600;
+  font-family: var(--font-ibm-plex-sans-hebrew);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 104px;
+  z-index: 2;
+}
+.frameParent,
+.frameWrapper,
+.rectangleGroup {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xl) var(--padding-124xl) var(--padding-4xl);
+  background-color: transparent;
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(
+    88.38deg,
+    rgba(75, 73, 85, 0.4),
+    rgba(165, 161, 187, 0.4)
+  );
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frameParent,
+.frameWrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.frameParent {
+  flex-direction: column;
+  gap: var(--gap-2xl);
+}
+@media screen and (max-width: 400px) {
+  .rectangleGroup {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

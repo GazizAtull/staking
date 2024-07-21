@@ -1,0 +1,82 @@
+.frameChild {
+  width: 422px;
+  height: 388px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-dimgray);
+  display: none;
+  max-width: 100%;
+  z-index: 1;
+}
+.toCompleteThe {
+  align-self: stretch;
+  height: 297px;
+  position: relative;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.toCompleteTheTransactionPParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonIcon {
+  height: 14px;
+  width: 13.9px;
+  position: relative;
+  cursor: pointer;
+  z-index: 2;
+}
+.pngTransparentTetherUnitedIcon {
+  height: 27px;
+  width: 27px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.buttonParent {
+  width: 207px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  margin-top: -348px;
+}
+.rectangleParent,
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-dimgray);
+  align-items: flex-start;
+  padding: var(--padding-3xs) var(--padding-2xl) var(--padding-5xl);
+  min-height: 388px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-white);
+  font-family: var(--font-avenir);
+}
+.root {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  align-items: flex-end;
+  padding: var(--padding-14xl) var(--padding-5xs) var(--padding-88xl)
+    var(--padding-6xs);
+  gap: var(--gap-26xl);
+  line-height: normal;
+  letter-spacing: normal;
+}

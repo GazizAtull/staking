@@ -1,0 +1,379 @@
+.amountInputFieldsChild {
+  height: 58px;
+  width: 415px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(88.38deg, #4b4955, #a5a1bb);
+  display: none;
+  max-width: 100%;
+}
+.amount {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+.amountInputs {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-8xs);
+  box-sizing: border-box;
+  min-width: 84px;
+}
+.rectangle6Button {
+  height: 21px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gainsboro-100);
+  cursor: pointer;
+  z-index: 1;
+}
+.addButton {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 18px;
+  z-index: 2;
+}
+.addButtonWrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  margin-left: -39px;
+}
+.addButtonPair,
+.addButtonWrapper,
+.addButtonsRow {
+  display: flex;
+  align-items: flex-start;
+}
+.addButtonPair {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xl) 0 0;
+}
+.addButtonsRow {
+  width: 61px;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-3xs);
+  color: var(--color-black);
+}
+.pngTransparentTetherUnitedIcon {
+  height: 27px;
+  width: 27px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.amountInputFields {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(88.38deg, #4b4955, #a5a1bb);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) var(--padding-3xs) var(--padding-sm)
+    var(--padding-133xl);
+  box-sizing: border-box;
+  gap: var(--gap-mid-5);
+  max-width: 100%;
+}
+.amountInputFieldsItem {
+  height: 58px;
+  width: 415px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(87.46deg, #4b4955, #a5a1bb);
+  display: none;
+  max-width: 100%;
+}
+.amount1 {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  min-width: 62px;
+  z-index: 1;
+}
+.rectangle7Button {
+  height: 21px;
+  width: 61px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gainsboro-100);
+  display: none;
+}
+.addButton1 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 18px;
+  z-index: 2;
+}
+.amountInputFieldsInner,
+.rectangle7ButtonParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangle7ButtonParent {
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gainsboro-100);
+  flex-direction: row;
+  padding: var(--padding-9xs) var(--padding-2xl) var(--padding-9xs)
+    var(--padding-3xl);
+  z-index: 1;
+}
+.amountInputFieldsInner {
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+  font-size: var(--font-size-3xs);
+  color: var(--color-black);
+}
+.amountInputFields1,
+.rectangleDiv {
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+}
+.amountInputFields1 {
+  align-self: stretch;
+  background: linear-gradient(87.46deg, #4b4955, #a5a1bb);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-37xl) var(--padding-mini)
+    var(--padding-133xl);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+}
+.rectangleDiv {
+  height: 58px;
+  width: 415px;
+  position: relative;
+  background: linear-gradient(88.61deg, #4b4955, #a5a1bb);
+  display: none;
+}
+.amount2,
+.rectangle8Button {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.amount2 {
+  font-weight: 600;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  min-width: 62px;
+}
+.rectangle8Button {
+  height: 21px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gainsboro-100);
+  cursor: pointer;
+}
+.addButton2 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 18px;
+  z-index: 2;
+}
+.addButtonContainer,
+.rectangle8ButtonParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.addButtonContainer {
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+  margin-left: -39px;
+}
+.rectangle8ButtonParent {
+  width: 61px;
+  flex-direction: row;
+  padding: 0 var(--padding-2xl) 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-3xs);
+  color: var(--color-black);
+}
+.svgIcon {
+  height: 28px;
+  width: 28px;
+  position: relative;
+  object-fit: contain;
+  min-height: 28px;
+  z-index: 1;
+}
+.amountInputFields2 {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(88.61deg, #4b4955, #a5a1bb);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-4xs) var(--padding-mini)
+    var(--padding-133xl);
+  box-sizing: border-box;
+  gap: var(--gap-mid-5);
+  max-width: 100%;
+}
+.amountInputFieldsChild1 {
+  height: 58px;
+  width: 415px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(88.44deg, #4b4955, #a5a1bb);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.amount3 {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  min-width: 62px;
+  z-index: 1;
+}
+.rectangle9Button {
+  height: 21px;
+  width: 61px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gainsboro-100);
+  display: none;
+}
+.addButton3 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 18px;
+  z-index: 2;
+}
+.frameDiv,
+.rectangle9ButtonParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangle9ButtonParent {
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gainsboro-100);
+  flex-direction: row;
+  padding: var(--padding-9xs) var(--padding-2xl) var(--padding-9xs)
+    var(--padding-3xl);
+  z-index: 1;
+}
+.frameDiv {
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+  font-size: var(--font-size-3xs);
+  color: var(--color-black);
+}
+.svgIcon1 {
+  height: 29px;
+  width: 29px;
+  position: absolute;
+  margin: 0 !important;
+  top: 14px;
+  right: 8px;
+  object-fit: contain;
+  z-index: 1;
+}
+.amountInputFields3,
+.amountInputFieldsParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.amountInputFields3 {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(88.44deg, #4b4955, #a5a1bb);
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: var(--padding-mini) var(--padding-37xl) var(--padding-mini)
+    var(--padding-133xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-base);
+}
+.amountInputFieldsParent {
+  flex: 1;
+  flex-direction: column;
+  gap: 28px;
+}
+.portfolio,
+.portfolioInner {
+  display: flex;
+  box-sizing: border-box;
+}
+.portfolioInner {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-2xs) 53px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-500);
+  font-family: var(--font-ibm-plex-sans-hebrew);
+}
+.portfolio {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gray-200);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-14xl) 0 0;
+  gap: var(--gap-26xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 415px) {
+  .amountInputFields {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .amountInputFields1 {
+    padding-right: var(--padding-xl);
+  }
+  .amountInputFields1,
+  .amountInputFields2,
+  .amountInputFields3 {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .amountInputFields3 {
+    padding-right: var(--padding-xl);
+  }
+}
+@media screen and (max-width: 369px) {
+  .portfolioInner {
+    padding-bottom: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}

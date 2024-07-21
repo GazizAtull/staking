@@ -1,0 +1,190 @@
+.instructionsChild {
+  width: 422px;
+  height: 388px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-dimgray);
+  display: none;
+  max-width: 100%;
+  z-index: 1;
+}
+.toCompleteThe {
+  align-self: stretch;
+  height: 297px;
+  position: relative;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.addressTypeChild {
+  height: 43px;
+  width: 290px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro-100);
+  display: none;
+}
+.trc20Adress {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 84px;
+  z-index: 2;
+}
+.addressType,
+.sendWordChild {
+  background-color: var(--color-gainsboro-100);
+}
+.addressType {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-smi) var(--padding-xl) var(--padding-smi)
+    var(--padding-15xl);
+  white-space: nowrap;
+  z-index: 1;
+}
+.sendWordChild {
+  height: 26px;
+  width: 61px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  display: none;
+}
+.send {
+  position: relative;
+  font-size: var(--font-size-smi);
+  font-weight: 600;
+  font-family: var(--font-ibm-plex-sans-hebrew);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 30px;
+  z-index: 2;
+}
+.sendAction,
+.sendWord {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.sendWord {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-9xs) var(--padding-mini) var(--padding-8xs)
+    var(--padding-base);
+  background-color: var(--color-gainsboro-100);
+  border-radius: var(--br-11xl);
+  justify-content: flex-start;
+  z-index: 1;
+}
+.sendWord:hover {
+  background-color: var(--color-silver);
+}
+.sendAction {
+  width: 277px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.addressDetails {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-12xl);
+}
+.addressContainer,
+.sendInstruction,
+.transactionDetails {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.addressContainer {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-29xl) 0 var(--padding-23xl);
+  margin-top: -43px;
+  color: var(--color-gray-300);
+  font-family: var(--font-ibm-plex-sans-hebrew);
+}
+.sendInstruction,
+.transactionDetails {
+  max-width: 100%;
+}
+.sendInstruction {
+  flex: 1;
+  flex-direction: column;
+}
+.transactionDetails {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-6xs);
+  box-sizing: border-box;
+}
+.buttonIcon {
+  width: 13.9px;
+  height: 14px;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+.actionButton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-7xs);
+}
+.pngTransparentTetherUnitedIcon {
+  height: 27px;
+  width: 27px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.transactionImage {
+  width: 214px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  margin-top: -348px;
+}
+.instructions {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-dimgray);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm) var(--padding-15xl);
+  box-sizing: border-box;
+  min-height: 388px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-white);
+  font-family: var(--font-avenir);
+}
+@media screen and (max-width: 380px) {
+  .addressContainer {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 290px) {
+  .addressDetails {
+    gap: var(--gap-mini);
+  }
+}
